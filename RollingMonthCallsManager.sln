@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F46C9D99-F903-440C-A796-2C8482EF6056}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "documentation", "documentation", "{05B1B71C-EDFA-4341-AD04-8E9D9F5BD00C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BD594F08-D904-4213-A5C2-D39FF35A2541}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RollingMonthCallsManager.Tests", "tests\RollingMonthCallsManager.Tests\RollingMonthCallsManager.Tests.csproj", "{E335BE93-B0ED-4414-A81F-081515B7FE19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RollingMonthCallsManager.App", "src\RollingMonthCallsManager.App\RollingMonthCallsManager.App.csproj", "{35C26F61-D6AF-4F87-B581-00591B4A2CB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RollingMonthCallsManager.Common", "src\RollingMonthCallsManager.Common\RollingMonthCallsManager.Common.csproj", "{F240D057-F354-42C8-87A2-F4A316E32797}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RollingMonthCallsManager.Services", "src\RollingMonthCallsManager.Services\RollingMonthCallsManager.Services.csproj", "{7A515B84-C082-40CC-AEEA-FD26565D83AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9A0DD414-6B4E-4946-A9D9-DAC3A5ED47AB}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "RollingMonthCallsManager.Installer", "installer\RollingMonthCallsManager.Installer\RollingMonthCallsManager.Installer.wixproj", "{099DF358-FAF9-4BA4-A8E6-B14E8E589C90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "installer", "installer", "{665FE5DD-F246-48AE-8E16-E54B59F745C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E335BE93-B0ED-4414-A81F-081515B7FE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E335BE93-B0ED-4414-A81F-081515B7FE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E335BE93-B0ED-4414-A81F-081515B7FE19}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E335BE93-B0ED-4414-A81F-081515B7FE19}.Debug|x86.Build.0 = Debug|Any CPU
+		{E335BE93-B0ED-4414-A81F-081515B7FE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E335BE93-B0ED-4414-A81F-081515B7FE19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E335BE93-B0ED-4414-A81F-081515B7FE19}.Release|x86.ActiveCfg = Release|Any CPU
+		{E335BE93-B0ED-4414-A81F-081515B7FE19}.Release|x86.Build.0 = Release|Any CPU
+		{35C26F61-D6AF-4F87-B581-00591B4A2CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C26F61-D6AF-4F87-B581-00591B4A2CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C26F61-D6AF-4F87-B581-00591B4A2CB7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{35C26F61-D6AF-4F87-B581-00591B4A2CB7}.Debug|x86.Build.0 = Debug|Any CPU
+		{35C26F61-D6AF-4F87-B581-00591B4A2CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C26F61-D6AF-4F87-B581-00591B4A2CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35C26F61-D6AF-4F87-B581-00591B4A2CB7}.Release|x86.ActiveCfg = Release|Any CPU
+		{35C26F61-D6AF-4F87-B581-00591B4A2CB7}.Release|x86.Build.0 = Release|Any CPU
+		{F240D057-F354-42C8-87A2-F4A316E32797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F240D057-F354-42C8-87A2-F4A316E32797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F240D057-F354-42C8-87A2-F4A316E32797}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F240D057-F354-42C8-87A2-F4A316E32797}.Debug|x86.Build.0 = Debug|Any CPU
+		{F240D057-F354-42C8-87A2-F4A316E32797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F240D057-F354-42C8-87A2-F4A316E32797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F240D057-F354-42C8-87A2-F4A316E32797}.Release|x86.ActiveCfg = Release|Any CPU
+		{F240D057-F354-42C8-87A2-F4A316E32797}.Release|x86.Build.0 = Release|Any CPU
+		{7A515B84-C082-40CC-AEEA-FD26565D83AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A515B84-C082-40CC-AEEA-FD26565D83AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A515B84-C082-40CC-AEEA-FD26565D83AF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7A515B84-C082-40CC-AEEA-FD26565D83AF}.Debug|x86.Build.0 = Debug|Any CPU
+		{7A515B84-C082-40CC-AEEA-FD26565D83AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A515B84-C082-40CC-AEEA-FD26565D83AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A515B84-C082-40CC-AEEA-FD26565D83AF}.Release|x86.ActiveCfg = Release|Any CPU
+		{7A515B84-C082-40CC-AEEA-FD26565D83AF}.Release|x86.Build.0 = Release|Any CPU
+		{099DF358-FAF9-4BA4-A8E6-B14E8E589C90}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{099DF358-FAF9-4BA4-A8E6-B14E8E589C90}.Debug|x86.ActiveCfg = Debug|x86
+		{099DF358-FAF9-4BA4-A8E6-B14E8E589C90}.Debug|x86.Build.0 = Debug|x86
+		{099DF358-FAF9-4BA4-A8E6-B14E8E589C90}.Release|Any CPU.ActiveCfg = Release|x86
+		{099DF358-FAF9-4BA4-A8E6-B14E8E589C90}.Release|x86.ActiveCfg = Release|x86
+		{099DF358-FAF9-4BA4-A8E6-B14E8E589C90}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E335BE93-B0ED-4414-A81F-081515B7FE19} = {BD594F08-D904-4213-A5C2-D39FF35A2541}
+		{35C26F61-D6AF-4F87-B581-00591B4A2CB7} = {F46C9D99-F903-440C-A796-2C8482EF6056}
+		{F240D057-F354-42C8-87A2-F4A316E32797} = {F46C9D99-F903-440C-A796-2C8482EF6056}
+		{7A515B84-C082-40CC-AEEA-FD26565D83AF} = {F46C9D99-F903-440C-A796-2C8482EF6056}
+		{099DF358-FAF9-4BA4-A8E6-B14E8E589C90} = {665FE5DD-F246-48AE-8E16-E54B59F745C1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5E7B903-3C00-43F6-94A5-9A901AE0A63B}
+	EndGlobalSection
+EndGlobal
